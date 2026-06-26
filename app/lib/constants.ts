@@ -140,6 +140,34 @@ export const PROJECTS = [
     metrics: "50+ chart types supported",
     image: "/projects/dashboard.png",
   },
+  {
+    id: 7,
+    title: "AI Profile Detection",
+    tagline: "Detect fake & LLM-generated social media profiles",
+    description: "An AI-powered system to detect fraudulent and AI-generated social media profiles using Google BigQuery, Vision API, and Gemini AI. Includes a browser extension for real-time risk scoring and suspicious-profile alerts without leaving the browser.",
+    tech: ["Google BigQuery", "Gemini AI", "Vision API", "K-Means", "Autoencoders", "Browser Extension", "Genetic Algorithm"],
+    github: "#",
+    live: "#",
+    color: "#F97316",
+    planetColor: "#FB923C",
+    features: ["LLM profile fingerprinting", "Real-time browser extension", "K-Means clustering", "Autoencoder anomaly detection", "Genetic algorithm optimization", "Risk score alerts"],
+    metrics: "Rule-based + ML hybrid detection pipeline",
+    image: "/projects/ai-detection.png",
+  },
+  {
+    id: 8,
+    title: "Mental Health Tracker",
+    tagline: "Child-friendly wellness & mood tracking platform",
+    description: "A child-friendly digital mental-health platform featuring mood tracking, guided meditation modules, and emotion trend analytics. Built with parental monitoring dashboards to surface emotion trends and usage insights, with a fully responsive UI for accessibility across all devices.",
+    tech: ["JSP", "JDBC", "Java", "HTML5", "CSS3", "Bootstrap", "JavaScript", "MySQL"],
+    github: "#",
+    live: "#",
+    color: "#14B8A6",
+    planetColor: "#2DD4BF",
+    features: ["Mood & emotion tracking", "Guided meditation modules", "Parental monitoring dashboard", "Emotion trend analytics", "Responsive cross-device UI", "Usage insights for guardians"],
+    metrics: "Full-stack Java web app with analytics dashboard",
+    image: "/projects/mental-health.png",
+  },
 ];
 
 export const EXPERIENCE = [
@@ -186,7 +214,7 @@ export const EXPERIENCE = [
 ];
 
 export const ACHIEVEMENTS = [
-  { title: "Projects Shipped", value: "10+", icon: "🚀" },
+  { title: "Projects Shipped", value: "12+", icon: "🚀" },
   { title: "GitHub Stars", value: "50+", icon: "⭐" },
   { title: "Technologies Mastered", value: "20+", icon: "⚡" },
   { title: "Problems Solved", value: "200+", icon: "🧠" },
