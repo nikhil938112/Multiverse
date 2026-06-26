@@ -355,8 +355,9 @@ export default function Hero() {
           </motion.button>
 
           <motion.a
-            href="/resume.pdf"
-            download
+            href="https://drive.google.com/uc?export=download&id=1JlpdQO7qjJrifc6yndtiFhTDxleYK8wo"
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="flex items-center gap-2 px-8 py-3.5 glass-dark rounded-full font-orbitron text-sm tracking-widest text-[var(--neon-blue)] neon-border-blue hover:bg-[var(--neon-blue)]/10 transition-all duration-300"
