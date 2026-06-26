@@ -2,7 +2,7 @@
   "version": 2,
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
-  "installCommand": "npx npm@10 install --legacy-peer-deps",
+  "installCommand": "npx npm@10 install --legacy-peer-deps --include=optional",
   "framework": "nextjs",
   "regions": ["bom1"],
   "headers": [
