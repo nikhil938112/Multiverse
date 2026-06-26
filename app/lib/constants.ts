@@ -18,6 +18,7 @@ export const ROLES = [
   "Future Builder",
   "React Developer",
   "Node.js Expert",
+  "Java Developer",
 ];
 
 export const SKILLS = {
